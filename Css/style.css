@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Strike&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap'); 
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +10,15 @@ body {
 }
 
 .heading {
+    background-color: rgb(244, 153, 42);
+    padding: 1vmin 0;
     font-size: 6vmin;
     text-align: center;
     text-decoration: underline;
     font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border-bottom: 1px solid black;;
 }
 
 
@@ -25,14 +28,17 @@ body {
     min-height: 70vmin;
     width: 60vmin;
     border: 1px solid black;
+    box-shadow:2px 2px 5px 2px black;
 }
 
 .blockheading {
-    font-size: 8vmin;
+    font-size: 6vmin;
     width: 100%;
-    background-color: red;
+    background-color: rgb(239, 151, 57);
     padding: 2% 0;
     text-align: center;
+    font-family: "Protest Riot";
+    font-style:italic;
 }
 
 .input {
@@ -52,7 +58,9 @@ body {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-    border:.02px solid rgb(160, 13, 13);
+    border: .02px solid rgb(160, 13, 13);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
 }
 
 
@@ -73,6 +81,20 @@ body {
     padding: 2%;
     align-items: center;
 }
+.flag{
+    min-width:3vmin;
+}
+
+.fromdiv,
+.todiv {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0 1vmin;
+    width:17vmin;
+}
 
 .btndiv {
     margin-top: 10%;
@@ -83,15 +105,16 @@ body {
     padding: 2% 4%;
     border-radius: 10px;
     border: none;
-    background-color: lightblue;
+    background-color: #ffa000;
+    box-shadow: 2px 2px 2px 0px black;
     cursor: pointer;
     font-size: 3vmin
 }
 
 .btn:active {
     transform: scale(.8);
-    box-shadow:6px 7px 0px 0px red;
-    color:rgb(255, 0, 0);
+    box-shadow: -3px -2px 3px 0px #ff0000;
+    color: rgb(255, 255, 255);
 }
 
 .quote {
@@ -102,29 +125,36 @@ body {
 
 .selectfrom,
 .selectto {
-    min-height: 6vmin;
-    min-width: 15vmin;
+    min-height: 4vmin;
+    min-width: 8vmin;
     font-size: 2vmin;
     text-align: center;
     cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight:bold
 }
-.quote{
-    font-size:3vmin;
+
+.quote {
+    font-size: 3vmin;
 }
+
 footer p {
-    position:absolute;
-    bottom:20px;
-    left:15px;
-    font-size:2.5vmin;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    font-size: 2.5vmin;
 }
-.outputAmt{
-    width:80%;
-    margin:auto;
+
+.outputAmt {
+    width: 80%;
+    margin: auto;
     background-color: lavender;
     font-size: 4vmin;
     text-align: center;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-    border:.02px solid rgb(160, 13, 13);
+    border: .02px solid rgb(160, 13, 13);
 }
