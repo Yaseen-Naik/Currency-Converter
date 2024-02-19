@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.heading {
+    font-size: 6vmin;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    background-color: white;
+    margin: 2% auto;
+    min-height: 70vmin;
+    width: 60vmin;
+    border: 1px solid black;
+}
+
+.blockheading {
+    font-size: 8vmin;
+    width: 100%;
+    background-color: red;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    margin: 4% 0%;
+}
+
+.inputvalue {
+    width: 90%;
+    height: 6vmin;
+    outline: none;
+    border: none;
+    background-color: lavender;
+    font-size: 5vmin;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border:.02px solid rgb(160, 13, 13);
+}
+
+
+.inputvalue::placeholder {
+    text-align: center;
+    opacity: .3;
+}
+
+.inputamt {
+    max-width: 50vmin;
+}
+
+.exchange {
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    padding: 2%;
+    align-items: center;
+}
+
+.btndiv {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.btn {
+    padding: 2% 4%;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 3vmin
+}
+
+.btn:active {
+    transform: scale(.8);
+    box-shadow:6px 7px 0px 0px red;
+    color:rgb(255, 0, 0);
+}
+
+.quote {
+    padding: 3%;
+    text-transform: capitalize;
+    text-align: center
+}
+
+.selectfrom,
+.selectto {
+    min-height: 6vmin;
+    min-width: 15vmin;
+    font-size: 2vmin;
+    text-align: center;
+    cursor: pointer;
+}
+.quote{
+    font-size:3vmin;
+}
+footer p {
+    position:absolute;
+    bottom:20px;
+    left:15px;
+    font-size:2.5vmin;
+}
+.outputAmt{
+    width:80%;
+    margin:auto;
+    background-color: lavender;
+    font-size: 4vmin;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border:.02px solid rgb(160, 13, 13);
+}
