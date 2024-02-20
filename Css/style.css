@@ -76,7 +76,6 @@ body {
 }
 
 .exchange {
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
     height: 7%;
@@ -118,7 +117,8 @@ body {
     border: none;
     background: none;
     cursor: pointer;
-    font-size: 2.7vmin
+    font-size: 2.7vmin;
+    text-decoration: underline;
 }
 
 .infobtn:hover {
@@ -128,7 +128,23 @@ body {
 .infobtn:active {
     color: rgb(255, 0, 0);
 }
-
+.SearchByCountry{
+    width:96%;
+    height:10vmin;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.country{
+    outline: none;
+    font-size:3vmin;
+    width:27vmin;
+    height:7vmin;
+    border:1px solid black;
+    border-radius:10px;
+    background:none;
+}
 .btndiv {
     margin-top: 4%;
     text-align: center;
