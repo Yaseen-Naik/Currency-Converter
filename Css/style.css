@@ -193,7 +193,7 @@ body {
     text-decoration: underline;
 }
 .quote {
-    margin-top:2vmin;
+    margin:1.5vmin 0 3vmin;
     text-transform: capitalize;
     text-align: center;
     font-size: 3.5vmin;

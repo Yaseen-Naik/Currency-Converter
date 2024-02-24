@@ -102,7 +102,7 @@ btn.addEventListener("click", async () => {
 infobtn[0].addEventListener("click", () => {
   index = select[0].selectedIndex;
   change_info(index);
-  quote.style.visibility = "collapse";
+  quote.style.visibility = "hidden";
   info.style.visibility = "visible";
   country_name = data[index].country;
   country_code = data[index].countryCode;
@@ -112,7 +112,7 @@ infobtn[0].addEventListener("click", () => {
 infobtn[1].addEventListener("click", () => {
   index = select[1].selectedIndex;
   change_info(index);
-  quote.style.visibility = "collapse";
+  quote.style.visibility = "hidden";
   info.style.visibility = "visible";
   index = select[1].selectedIndex;
   country_name = data[index].country;
